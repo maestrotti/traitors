@@ -1,11 +1,18 @@
-# Vila izdajnika V10 — privatni susreti, memorija i imunitet
+# Vila izdajnika — V10 demo
 
-Nadogradnja V9. Pokreni `npm install` i `npm run dev`, zatim otvori `http://localhost:3000`.
+Next.js prototip društvene igre s misijama, AI simulacijom, chatom i fazama dana.
 
-- Slučajni susret odmah otvara privatnog sagovornika u chatu; druga strana (AI) odgovara na poruku. Drugi učesnici vide samo da se razgovor dogodio.
-- Prije dobrovoljnog odlaska na okrugli sto potrebno je poslati barem jednu privatnu poruku. Dostupan je i ručni izbor sagovornika.
-- Memorija: prvo pojedinačno otkrivanje svake od 12 karata (po 1 sekundu, bez bodovanja), zatim igra u parovima s brojačem pokušaja.
-- Imunitet: umjesto nasumičnog pehara, proučavaju se tri traga i donosi zaključak. Ovo je početna verzija logičkog izazova.
-- Bijeli oblačići iznad učesnika imaju tamna slova.
+## Pokretanje
 
-Napomena: lokalni demo; AI koristi unaprijed pripremljene odgovore, ne jezički model. Ostatak ranijih igara i dalje je u demo obliku. Kompletan Next.js build nije potvrđen jer zavisnosti nisu instalirane u ovom okruženju.
+```bash
+npm install
+npm run dev
+```
+
+Otvori http://localhost:3000.
+
+## Objavljivanje
+
+Detaljno uputstvo za GitHub, Vercel i Supabase nalazi se u [DEPLOY-GITHUB-SUPABASE.md](DEPLOY-GITHUB-SUPABASE.md).
+
+**Status:** igra je trenutno lokalni demo (`localStorage`). Supabase SQL je pripremljen, ali multiplayer backend još nije povezan.

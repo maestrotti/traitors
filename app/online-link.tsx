@@ -1,0 +1,1 @@
+export default function OnlineLink(){return <a href='/online' style={{position:'fixed',right:16,bottom:16,zIndex:9999,background:'#e4b95c',color:'#21111b',padding:'12px 18px',borderRadius:12,fontWeight:800,boxShadow:'0 4px 20px #0008'}}>Online vila · pozovi prijatelje</a>}
